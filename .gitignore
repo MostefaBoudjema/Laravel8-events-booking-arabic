@@ -1,0 +1,14 @@
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+/.idea
+/.vagrant
+Homestead.json
+Homestead.yaml
+npm-debug.log
+.env
+PROBLEMS.html
+Capture1.PNG
+public/adminlte/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt
