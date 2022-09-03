@@ -22,6 +22,8 @@
                             <th style="text-align:center;"><input type="checkbox" id="select-all" /></th>
                         @endcan
 
+                        <th>@lang('quickadmin.events.fields.id')</th>
+                        <th>@lang('quickadmin.events.fields.img')</th>
                         <th>@lang('quickadmin.events.fields.title')</th>
                         <th>@lang('quickadmin.events.fields.description')</th>
                         <th>@lang('quickadmin.events.fields.start-time')</th>
@@ -38,11 +40,14 @@
                                     <td></td>
                                 @endcan
 
+                                <td>{{ $event->id }}</td>
+                                <td><img class="img-thumbnail" src='https://picsum.photos/id/{{ $event->id }}/300/300')
+                                    alt="img" style="width:70px; height:50px"></td>
                                 <td>{{ $event->title }}</td>
                                 <td>{!! $event->description !!}</td>
                                 <td>{{ $event->start_time }}</td>
                                 <td>{!! $event->venue !!}</td>
-                                <td>
+                                <td width="140">
                                     @can('event_view')
                                     <a href="{{ route('admin.events.show',[$event->id]) }}" class="btn btn-xs btn-primary">@lang('quickadmin.qa_view')</a>
                                     @endcan

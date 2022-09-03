@@ -20,7 +20,8 @@ class EventsController extends Controller
      */
     public function index()
     {
-        $events = Event::all();
+        // $events = Event::all();
+        $events = Event::latest()->paginate('6');
 
         return view('guest.home', compact('events'));
     }

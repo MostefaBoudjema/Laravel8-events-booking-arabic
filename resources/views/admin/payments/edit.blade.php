@@ -13,7 +13,7 @@
         <div class="panel-body">
             <div class="row">
                 <div class="col-xs-12 form-group">
-                    {!! Form::label('email', 'Email*', ['class' => 'control-label']) !!}
+                    {!! Form::label('email',  __('quickadmin.payments.fields.email'), ['class' => 'control-label']) !!}
                     {!! Form::email('email', old('email'), ['class' => 'form-control', 'placeholder' => '', 'required' => '']) !!}
                     <p class="help-block"></p>
                     @if($errors->has('email'))
@@ -25,7 +25,7 @@
             </div>
             <div class="row">
                 <div class="col-xs-12 form-group">
-                    {!! Form::label('merchant', 'Merchant*', ['class' => 'control-label']) !!}
+                    {!! Form::label('merchant',  __('quickadmin.payments.fields.merchant'), ['class' => 'control-label']) !!}
                     {!! Form::text('merchant', old('merchant'), ['class' => 'form-control', 'placeholder' => '', 'required' => '']) !!}
                     <p class="help-block"></p>
                     @if($errors->has('merchant'))
@@ -37,7 +37,7 @@
             </div>
             <div class="row">
                 <div class="col-xs-12 form-group">
-                    {!! Form::label('amount', 'Amount*', ['class' => 'control-label']) !!}
+                    {!! Form::label('amount',  __('quickadmin.payments.fields.amount'), ['class' => 'control-label']) !!}
                     {!! Form::text('amount', old('amount'), ['class' => 'form-control', 'placeholder' => '', 'required' => '']) !!}
                     <p class="help-block"></p>
                     @if($errors->has('amount'))

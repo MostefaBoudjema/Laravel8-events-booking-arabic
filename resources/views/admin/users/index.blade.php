@@ -39,7 +39,7 @@
 
                                 <td>{{ $user->name }}</td>
                                 <td>{{ $user->email }}</td>
-                                <td>{{ $user->role->title or '' }}</td>
+                                <td>{{ $user->role->title ?? '??' }}</td>
                                 <td>
                                     @can('user_view')
                                     <a href="{{ route('admin.users.show',[$user->id]) }}" class="btn btn-xs btn-primary">@lang('quickadmin.qa_view')</a>

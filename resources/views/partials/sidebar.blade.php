@@ -5,19 +5,7 @@
     <section class="sidebar">
         <ul class="sidebar-menu">
 
-            <li class="{{ $request->segment(1) == 'home' ? 'active' : '' }}">
-                <a href="{{ route('admin.dashboard') }}">
-                    <i class="fa fa-wrench"></i>
-                    <span class="title">@lang('quickadmin.qa_dashboard')</span>
-                </a>
-            </li>
 
-            <li class="{{ $request->segment(1) == 'home' ? 'active' : '' }}">
-                <a href="{{ route('guest.home') }}">
-                    <i class="fa fa-wrench"></i>
-                    <span class="title">@lang('quickadmin.qa_home')</span>
-                </a>
-            </li>
 
             
             @can('event_access')
@@ -89,16 +77,32 @@
             <li class="{{ $request->segment(1) == 'change_password' ? 'active' : '' }}">
                 <a href="{{ route('auth.change_password') }}">
                     <i class="fa fa-key"></i>
-                    <span class="title">Change password</span>
+                    <span class="title">@lang('quickadmin.qa_change_password')</span>
                 </a>
             </li>
+            <li>/
+            </li>
 
+            
+            <li class="{{ $request->segment(1) == 'home' ? 'active' : '' }}">
+                <a href="{{ route('admin.dashboard') }}">
+                    <i class="fa fa-wrench"></i>
+                    <span class="title">@lang('quickadmin.qa_dashboard')</span>
+                </a>
+            </li>
+            <li class="{{ $request->segment(1) == 'home' ? 'active' : '' }}">
+                <a href="{{ route('guest.home') }}">
+                    <i class="fa fa-home"></i>
+                    @lang('quickadmin.qa_home')
+                </a>
+            </li>
             <li>
                 <a href="#logout" onclick="$('#logout').submit();">
                     <i class="fa fa-arrow-left"></i>
                     <span class="title">@lang('quickadmin.qa_logout')</span>
                 </a>
             </li>
+            
         </ul>
     </section>
 </aside>

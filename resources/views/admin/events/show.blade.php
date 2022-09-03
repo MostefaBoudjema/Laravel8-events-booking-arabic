@@ -58,7 +58,7 @@
                             @if (count($tickets) > 0)
                                 @foreach ($tickets as $ticket)
                                     <tr data-entry-id="{{ $ticket->id }}">
-                                        <td>{{ $ticket->event->title or '' }}</td>
+                                        <td>{{ $ticket->event->title ?? '??' }}</td>
                                         <td>{{ $ticket->title }}</td>
                                         <td>{{ $ticket->amount }}</td>
                                         <td>{{ $ticket->available_from }}</td>

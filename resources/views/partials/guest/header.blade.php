@@ -1,7 +1,7 @@
 <header class="main-header">
     <a href="{{ route('guest.home') }}" class="logo">
-        <span class="logo-mini">Events Booking System</span>
-        <span class="logo-lg">Events Booking System</span>
+        <span class="logo-mini"> @lang('quickadmin.quickadmin_title')</span>
+        <span class="logo-lg"> @lang('quickadmin.quickadmin_title')</span>
     </a>
     <nav class="navbar navbar-default navbar-static-top">
         <div class="container">

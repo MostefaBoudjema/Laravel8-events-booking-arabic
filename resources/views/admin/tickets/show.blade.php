@@ -14,7 +14,7 @@
                     <table class="table table-bordered table-striped">
                         <tr>
                             <th>@lang('quickadmin.tickets.fields.event')</th>
-                            <td>{{ $ticket->event->title or '' }}</td>
+                            <td>{{ $ticket->event->title ?? '??' }}</td>
                         </tr>
                         <tr>
                             <th>@lang('quickadmin.tickets.fields.title')</th>
