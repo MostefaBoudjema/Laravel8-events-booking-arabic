@@ -23,7 +23,7 @@
 
 <h3>Simple User:</h3>
 <h4>Home</h4>
-    <img src="https://github.com/mostfa16/Laravel8-events-booking-arabic/blob/master/storage/screenshots/homz.JPG?raw=true" style=' display:flex; margin-bottom:20px'>
+    <img src="https://github.com/mostfa16/Laravel8-events-booking-arabic/blob/master/storage/screenshots/home.JPG?raw=true" style=' display:flex; margin-bottom:20px'>
 
 
 ## About Laravel
