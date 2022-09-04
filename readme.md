@@ -12,9 +12,18 @@
 ## Screenshot
 
 <h3>Admin:</h3>
-
+<h4>Dashboard</h4>
+    <img src="https://github.com/mostfa16/Laravel8-events-booking-arabic/blob/master/storage/screenshots/dashboard.JPG?raw=true" style=' display:flex; margin-bottom:20px'>
+<h4>Events</h4>
+    <img src="https://github.com/mostfa16/Laravel8-events-booking-arabic/blob/master/storage/screenshots/events.JPG?raw=true" style=' display:flex; margin-bottom:20px'>
+<h4>Tickets</h4>
+    <img src="https://github.com/mostfa16/Laravel8-events-booking-arabic/blob/master/storage/screenshots/tickets.JPG?raw=true" style=' display:flex; margin-bottom:20px'>
+<h4>Payments</h4>
+    <img src="https://github.com/mostfa16/Laravel8-events-booking-arabic/blob/master/storage/screenshots/payments.JPG?raw=true" style=' display:flex; margin-bottom:20px'>
 
 <h3>Simple User:</h3>
+<h4>Home</h4>
+    <img src="https://github.com/mostfa16/Laravel8-events-booking-arabic/blob/master/storage/screenshots/homz.JPG?raw=true" style=' display:flex; margin-bottom:20px'>
 
 
 ## About Laravel

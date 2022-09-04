@@ -1,7 +1,7 @@
 <header class="main-header">
     <a href="{{ route('guest.home') }}" class="logo">
-        <span class="logo-mini"> @lang('quickadmin.quickadmin_title')</span>
-        <span class="logo-lg"> @lang('quickadmin.quickadmin_title')</span>
+        <span class="logo-mini"> @lang('quickadmin.qa_home_title')</span>
+        <span class="logo-lg"> @lang('quickadmin.qa_home_title')</span>
     </a>
     <nav class="navbar navbar-default navbar-static-top">
         <div class="container">

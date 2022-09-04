@@ -78,6 +78,7 @@ return [
 	'qa_no_entries_in_table' => 'No entries in table',
 	'custom_controller_index' => 'Custom controller index.',
 	'quickadmin_title' => 'Event Management',
+	'qa_home_title' => 'Events',
 	'qa_logout' => 'Logout',
 	'qa_add_new' => 'Add new',
 	'qa_are_you_sure' => 'Are you sure?',
