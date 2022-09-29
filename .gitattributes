@@ -6,6 +6,7 @@
 *.md diff=markdown
 *.php diff=php
 
+*.html linguist-vendored
 *.js linguist-vendored
 *.css linguist-vendored
 /.github export-ignore
